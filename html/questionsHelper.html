@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Become Helper</title>
+        <link rel='stylesheet' href='css/index.css'>
+        <link rel='stylesheet' href='css/customFonts.css'>
+        <link rel='stylesheet' href='css/selectionButton.css'>
+        <link rel='stylesheet' href='css/customButton.css'>
+        <link rel='stylesheet' href='css/customScroll.css'>
+        <link rel='stylesheet' href='css/customResize.css'>
+        <script src='js/utils.js'></script>
+    </head>
+    <body>
+        <div class='blackbox'></div>
+        <div class='container'>
+            <div class='top_banner'><img src='assets/XeroBanner.png'></div>
+            <div class='center_page'>
+                <div class='question_feeld' data-type='checkbox' data-tag='pref_staff_experience'>
+                    <span class='question_text'>Have you been a staff member on another server before?</span>
+                    <div class='flex_row box'>
+                        <div class='selection_button'>
+                            <input type='radio' name='yesno' data-value='Yes'>
+                            <span>Yes</span>
+                        </div>
+                        <div class='selection_button'>
+                            <input type='radio' name='yesno' data-value='No'>
+                            <span>No</span>
+                        </div>
+                    </div>
+                </div>
+                <div class='question_feeld' data-type='text' data-tag='pref_staff_position'>
+                    <span class='question_text'>If you had a postion as a staff member on another server,<br> what position did you have on that server?</span>
+                    <textarea class='input_feeld resizable' placeholder='...'></textarea>
+                </div>
+                <div class='question_feeld' data-type='text' data-tag='pref_staff_duration'>
+                    <span class='question_text'>For how long did you work on that server as a staff member?</span>
+                    <textarea class='input_feeld resizable' placeholder='...'></textarea>
+                </div>
+                <div class='question_feeld' data-type='text' data-tag='server_play_time'>
+                    <span class='question_text'>Since when are you playing on XeroGenesys?</span>
+                    <textarea class='input_feeld resizable' placeholder='...'></textarea>
+                </div>
+                <div class='question_feeld' data-type='text' data-tag='game_play_time'>
+                    <span class='question_text'>Since when are you playing minecraft?<br>(Version or rough time estimat)</span>
+                    <textarea class='input_feeld resizable' placeholder='...'></textarea>
+                </div>
+                <div class='question_feeld' data-type='text' data-tag='why_helper'>
+                    <span class='question_text'>Why do you want to be a helper on the server?</span>
+                    <textarea class='input_feeld resizable' placeholder='...'></textarea>
+                </div>
+                <div class='question_feeld' data-type='checkbox' data-tag='play_frequency'>
+                    <span class='question_text'>How often do you play mingecraft?</span>
+                    <div class='flex_row box grid'>
+                        <div class='selection_button'>
+                            <input type='radio' name='playtime' data-value='Daily'>
+                            <span>Daily</span>
+                        </div>
+                        <div class='selection_button'>
+                            <input type='radio' name='playtime' data-value='Once or twice per week'>
+                            <span>Once or twice per week</span>
+                        </div>
+                        <div class='selection_button'>
+                            <input type='radio' name='playtime' data-value='Once or twice per month'>
+                            <span>Once or twice per month</span>
+                        </div>
+                    </div>
+                </div>
+                <div class='question_feeld' data-type='checkbox' data-tag='position_time'>
+                    <span class='question_text'>How long would you be willing to hold the position?</span>
+                    <div class='flex_row box grid'>
+                        <div class='selection_button'>
+                            <input type='radio' name='commitment' data-value='This is only a test run'>
+                            <span>This is only a test run<br>(a few weeks)</span>
+                        </div>
+                        <div class='selection_button'>
+                            <input type='radio' name='commitment' data-value='As long as i can'>
+                            <span>As long as i can<br>(until i get demoted)</span>
+                        </div>
+                        <div class='selection_button'>
+                            <input type='radio' name='commitment' data-value='To infinity and beond'>
+                            <span>To infinity and beond<br>(until the end of the server)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class='custom_button'>
+                    <input type='button' onclick="readForm()">
+                    <span>Apply</span>
+                </div>
+            </div>
+            <div class='bottom_bar'>
+                <div><a href='https://xerogenesys.com/'>Main webside</a></div>
+                <div><a href='https://discord.gg/SQrzsyHub3'>Discord</a></div>
+            </div>
+        </div>
+    </body>
+</html>

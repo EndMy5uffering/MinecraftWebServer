@@ -1,0 +1,22 @@
+{
+    "pref_staff_position":{
+        "data_type":"text",
+        "display_text": "If you had a postion as a staff member on another server,<br> what position did you have on that server?"
+    },
+    "pref_staff_experience":{
+        "data_type":"checkbox",
+        "display_text": "Have you been a staff member on another server before?",
+        "selectables": [
+            {
+                "selector_name":"yesno",
+                "value":"Yes",
+                "display_text":"Yes"
+            },
+            {
+                "selector_name": "yesno",
+                "value":"No",
+                "display_text":"No"
+            }
+        ]
+    }
+}

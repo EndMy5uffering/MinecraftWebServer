@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Staff questionnaire</title>
+        <link rel='stylesheet' href='css/index.css'>
+        <link rel='stylesheet' href='css/customFonts.css'>
+        <link rel='stylesheet' href='css/selectionButton.css'>
+        <link rel='stylesheet' href='css/customButton.css'>
+        <script src='js/utils.js'></script>
+    </head>
+    <body>
+        <div class='blackbox'></div>
+        <div class='container'>
+            <div class='top_banner'><img src='assets/XeroBanner.png'></div>
+            <div class='center_page even'>
+                <span>
+                    So you would like to be a staff member?<br>
+                    Thats great, but before that we would like to ask you a few questions if thats ok.
+                </span>
+                <span>
+                    What position in the team would you like to apply for?
+                </span>
+                <div class='custom_button'>
+                    <!--onClick inside of input-->
+                    <input type='button' name='SideSelection' onclick="toPage('/helper')">
+                    <span>I would like to become a helper</span>
+                </div>
+                <div class='custom_button'>
+                    <!--onClick inside of input-->
+                    <input type='button' name='SideSelection'>
+                    <span>I would like to become a mod</span>
+                </div>
+                <div class='custom_button'>
+                    <!--onClick inside of input-->
+                    <input type='button' name='SideSelection'>
+                    <span>I would like to become a builder</span>
+                </div>
+                <div class='custom_button'>
+                    <!--onClick inside of input-->
+                    <input type='button' name='SideSelection'>
+                    <span>I would like to become an obt</span>
+                </div>
+                <div class='custom_button'>
+                    <!--onClick inside of input-->
+                    <input type='button' name='SideSelection' onclick="toPage('/admin')">
+                    <span>I would like to become an admin</span>
+                </div>
+            </div>
+            <div class='bottom_bar'>
+                <div><a href='https://xerogenesys.com/'>Main webside</a></div>
+                <div><a href='https://discord.gg/SQrzsyHub3'>Discord</a></div>
+            </div>
+        </div>
+    </body>
+</html>
